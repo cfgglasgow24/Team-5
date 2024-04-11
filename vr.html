@@ -8,6 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="manifest" href="site.webmanifest">
 		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/chatbot.css">
+
             <link rel="stylesheet" href="assets/css/bootstrap.min.css">
             <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
             <link rel="stylesheet" href="assets/css/flaticon.css">
@@ -20,6 +22,7 @@
             <link rel="stylesheet" href="assets/css/slick.css">
             <link rel="stylesheet" href="assets/css/nice-select.css">
             <link rel="stylesheet" href="assets/css/style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
    </head>
    <style>
     .hero__caption{
@@ -77,6 +80,31 @@
         <!-- Header End -->
     </header>
     <main>
+        <!-- Chatbot -->
+        <div>
+            <button class="chatbot-toggler">
+              <img src="assets/img/logo/chatbot.png" alt="Chat Icon" class="chatbot-logo" onerror="this.onerror=null; this.src='../../assets/images/logos/chatbot.png';">
+              <span class="material-symbols-outlined">close</span>
+            </button>
+            <div class="chatbot">
+              <header>
+                <h2>AI Assistant</h2>
+                <span class="close-btn material-symbols-outlined">close</span>
+              </header>
+              <ul class="chatbox">
+                <li class="chat incoming">
+                
+                  <span class="material-symbols-outlined"><i class="fas fa-robot"></i></span>
+                  <p>Hi👋<br>How can I help you today?</p>
+                </li>
+              </ul>
+              <div class="chat-input">
+                <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+                <span id="send-btn" class="material-symbols-rounded">send</span>
+              </div>
+            </div>
+          </div>
+        </div>
 
         <section class="blog_area section-padding">
             <div class="container">
@@ -95,7 +123,7 @@
                                     </ul>
                                 </div>
                                 <div class="blog_item_img">
-                                    <video width="720" height="400" controls>
+                                    <video width="770" height="400" controls>
                                         <source src="movie.mp4" type="video/mp4">
                                         <source src="movie.ogg" type="video/ogg">
                                         Your browser does not support the video tag.
@@ -103,7 +131,7 @@
 
                                 </div>
                                 <div>
-                                    <a href="" class="btn post-btn" style="margin-right: 212px;">Finish The Work</a>
+                                    <a href="" class="btn post-btn" style="margin-right: 248px;">Finish The Work</a>
                                     <a href="" class="btn post-btn">Have A Cup of Coffee</a>
                                 </div>
                             </article>
@@ -120,7 +148,7 @@
                                     </ul>
                                 </div>
                                 <div class="blog_item_img">
-                                    <video width="720" height="400" controls>
+                                    <video width="770" height="400" controls>
                                         <source src="movie.mp4" type="video/mp4">
                                         <source src="movie.ogg" type="video/ogg">
                                         Your browser does not support the video tag.
@@ -128,7 +156,7 @@
 
                                 </div>
                                 <div>
-                                    <a href="" class="btn post-btn" style="margin-right: 212px;">Finish The Work</a>
+                                    <a href="" class="btn post-btn" style="margin-right: 248px;">Finish The Work</a>
                                     <a href="" class="btn post-btn">Have A Cup of Coffee</a>
                                 </div>
                             </article>
@@ -145,7 +173,7 @@
                                     </ul>
                                 </div>
                                 <div class="blog_item_img">
-                                    <video width="720" height="400" controls>
+                                    <video width="770" height="400" controls>
                                         <source src="movie.mp4" type="video/mp4">
                                         <source src="movie.ogg" type="video/ogg">
                                         Your browser does not support the video tag.
@@ -153,7 +181,7 @@
 
                                 </div>
                                 <div>
-                                    <a href="" class="btn post-btn" style="margin-right: 212px;">Finish The Work</a>
+                                    <a href="" class="btn post-btn" style="margin-right: 248px;">Finish The Work</a>
                                     <a href="" class="btn post-btn">Have A Cup of Coffee</a>
                                 </div>
                             </article>
@@ -273,6 +301,8 @@
 		<!-- Jquery Plugins, main Jquery -->	
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
+        <script src="./assets/js/chatbot.js"></script>
+
         
     </body>
 </html>
